@@ -79,8 +79,8 @@ jobs:
         cd openwrt
         echo "src-git lucky https://github.com/gdy666/luci-app-lucky.git" >> "feeds.conf.default"
         echo "src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git" >> "feeds.conf.default"
-        echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall-packages.git" >> "feeds.conf.default".
-        echo "echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall-packages.git" >> "feeds.conf.default"" >> "feeds.conf.default"
+        echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall-packages.git" >> "feeds.conf.default"
+        echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall-packages.git" >> "feeds.conf.default"
         ./scripts/feeds update -a
         cat feeds/packages/utils/xfsprogs/Makefile
         sed -i 's/TARGET_CFLAGS += -DHAVE_MAP_SYNC/TARGET_CFLAGS += -DHAVE_MAP_SYNC -D_LARGEFILE64_SOURCE/' feeds/packages/utils/xfsprogs/Makefile
