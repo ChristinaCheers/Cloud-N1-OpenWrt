@@ -6,7 +6,7 @@ cd openwrt
 # mv -f package-temp/luci-app-adguardhome package/lean/
 # rm -rf package-temp
 
-# Add luci-theme-opentomcat
+# Add luci-theme-opentomcat  主题
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git theme-temp/luci-theme-opentomcat
 rm -rf theme-temp/luci-theme-opentomcat/LICENSE
 rm -rf theme-temp/luci-theme-opentomcat/README.md
