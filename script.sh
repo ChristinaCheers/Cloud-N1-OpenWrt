@@ -15,7 +15,7 @@ rm -rf theme-temp
 default_theme='opentomcat'
 sed -i "s/bootstrap/$default_theme/g" feeds/luci/modules/luci-base/root/etc/config/luci
 
-# Add luci-app-amlogic
+# Add luci-app-amlogic 晶晨宝盒
 git clone https://github.com/ophub/luci-app-amlogic.git  package-temp/luci-app-amlogic
 mv -f package-temp/luci-app-amlogic/luci-app-amlogic package/lean/
 rm -rf package-temp
