@@ -2,9 +2,9 @@
 cd openwrt
 
 # Add luci-app-adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package-temp/luci-app-adguardhome
-mv -f package-temp/luci-app-adguardhome package/lean/
-rm -rf package-temp
+# git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package-temp/luci-app-adguardhome
+# mv -f package-temp/luci-app-adguardhome package/lean/
+# rm -rf package-temp
 
 # Add luci-theme-opentomcat
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git theme-temp/luci-theme-opentomcat
