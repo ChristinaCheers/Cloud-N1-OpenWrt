@@ -1,7 +1,7 @@
 #!/bin/bash
 cd openwrt
 
-# Add luci-app-adguardhome
+# Add luci-app-adguardhome delete
 # git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package-temp/luci-app-adguardhome
 # mv -f package-temp/luci-app-adguardhome package/lean/
 # rm -rf package-temp
